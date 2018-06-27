@@ -13,6 +13,58 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+body {
+  background-color: #e6e6fa;
+  text-align: center;
+}
+
+header {
+}
+h2 {
+  font-family: Bookman, serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  color: #000000;
+}
+p {
+  font-family: Bookman, URW Bookman L, serif;
+  text-align: center;
+  color: #000000;
+}
+
+img {
+  align-self: center;
+  padding: 10px;
+}
+p.dotted {
+  border-style: dotted;
+}
+div.bio{
+  width: 500px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
 
 /*
  * Remove text-shadow in selection highlight:
